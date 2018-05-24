@@ -1,0 +1,410 @@
+html, body, h1, h2, h3, h4, h5 {
+	font-family : 'Exo 2', 'Open Sans', sans-serif;
+	font-weight : 300;
+}
+strong {
+	font-weight : 700;
+}
+
+/*##### KLEANAPICONFIG CSS START #####*/
+.kleanApiConfigPage {
+	padding-bottom: 100px;
+}
+
+.kleanApiConfigPage .ept-dash-container {
+	float:left;
+	width:49.99999%;
+	padding:8px
+}
+
+.kleanApiConfigPage .ept-dash-icon {
+	font-size:36px!important
+}
+
+.kleanApiConfigPage .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.kleanApiConfigPage .switch input {
+	display:none;
+}
+
+.kleanApiConfigPage .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.kleanApiConfigPage .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.kleanApiConfigPage .switchLabel {
+	position: relative;
+    top: -11px;
+    left: 10px;
+}
+
+.kleanApiConfigPage .apiForm label {
+	display: block;
+	margin-bottom: 8px;
+}
+
+
+.kleanApiConfigPage .apiForm input {
+	width: 24%;
+}
+
+.kleanApiConfigPage .apiConfig button {
+	margin-top: 15px;
+	color: #fff;
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+	margin-left: 94px;
+}
+
+.kleanApiConfigPage .apiConfig button i {
+	margin-right: 5px;
+}
+
+.kleanApiConfigPage input:checked + .slider {
+  background-color: #337ab7;
+}
+
+.kleanApiConfigPage input:focus + .slider {
+  box-shadow: 0 0 1px #337ab7;
+}
+
+.kleanApiConfigPage input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.kleanApiConfigPage .configSaveBtn:disabled {
+	background-color: #7bc2fb!important;
+}
+
+.kleanApiConfigPage .slider.round {
+  border-radius: 34px;
+}
+
+.kleanApiConfigPage .slider.round:before {
+  border-radius: 50%;
+}
+
+.kleanApiConfigPage .ept-dash-icon {
+	font-size:36px!important
+}
+
+.kleanApiConfigPage .configMessage {
+	margin-top: 30px;
+	padding: 8px;
+	font-size: 14px;
+	width: 24%;
+}
+
+.kleanApiConfigPage .configMessage p {
+	margin: 0;
+}
+
+.kleanApiConfigPage .loader {
+ 	position: relative;
+  	top: 4px;
+  	border: 2px solid #dadada;
+  	border-radius: 50%;
+  	border-top: 2px solid #3498db;
+  	width: 20px;
+  	height: 20px;
+  	-webkit-animation: spin 2s linear infinite; /* Safari */
+  	animation: spin 2s linear infinite;
+  	display: inline-block;
+  	margin-right: 3px;
+}
+
+.kleanApiConfigPage .errorMsg {
+	width: 23%;
+    background: #f44336!important;
+    padding: 7px;
+    color: #fff;
+}
+
+.kleanApiConfigPage .txtApiKey {
+	border: 1px solid #a9a9a9;
+	padding: 5px;
+}
+
+.kleanApiConfigPage .txtApiKey.error {
+	border: 1px solid #f44336;
+}
+
+.kleanApiConfigPage .toggleConfig:disabled + .slider {
+    background: #b5c1ca;
+}
+
+.kleanApiConfigPage .kleanHidden {
+    display: none;
+}
+
+.kleanApiConfigPage .addTagWrap {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.kleanApiConfigPage .addTagWrap label {
+    width: 92px;
+    display: inline-block;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.kleanApiConfigPage .addTagWrap input, 
+.kleanApiConfigPage .addTagWrap select {
+    width: 15%;
+    padding: 5px;
+}
+
+.kleanApiConfigPage .addTagWrap .tagGroup {
+    margin-bottom: 8px;
+}
+
+.kleanApiConfigPage .otherTagLabel {
+    visibility: hidden;
+}
+
+.kleanApiConfigPage .addTagWrap .tagGroup .left {
+    text-align: left;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.kleanApiConfigPage .tagDesc {
+    width: 15%;
+    height: 120px;
+}
+/*##### KLEANAPICONFIG CSS END #####*/
+
+/*##### KLEANONDEMANDSCRUB CSS START #####*/
+.kleanOnDemandScrubPage .onDemandScrub label {
+	display: inline-block;
+	text-align: right;
+}
+
+.kleanOnDemandScrubPage .onDemandScrub input, 
+.kleanOnDemandScrubPage .onDemandScrub select {
+	margin-top: 10px;
+	width: 15%;
+	padding: 5px;
+	margin-left: 13px;
+}
+
+.kleanOnDemandScrubPage .onDemandScrub .tagCategory {
+	margin-left: 7px;
+}
+
+.kleanOnDemandScrubPage .checkEverything {
+	margin-right: 5px;
+}
+
+.kleanOnDemandScrubPage .tagCategoryLabel {
+	margin-left: 13px;
+}
+
+.kleanOnDemandScrubPage .scrubButton {
+	margin: 15px 0 0 13px;
+    border: 0;
+    padding: 5px 15px;
+    cursor: pointer;
+    background: #337ab7;
+    color: #fff;
+}
+
+.kleanOnDemandScrubPage .checkEverything {
+	width: auto !important;
+	margin-top: 30px !important;
+}
+
+.kleanOnDemandScrubPage .modal-dialog {
+	width: 400px !important;
+}
+
+.kleanOnDemandScrubPage .scrubButton:disabled {
+	background: #94d0ff !important;
+}
+
+.kleanOnDemandScrubPage .printOutput {
+	width: 930px;
+	height: 309px;
+	margin-left: 10px;
+	background: #fff;
+	overflow-y: auto; 
+	padding: 21px;
+	border: 1px solid #ded6d6;
+}
+
+.kleanOnDemandScrubPage .outputLabel {
+	text-align: left !important;
+    margin-left: 12px;
+    margin-bottom: 7px;
+}
+
+.kleanOnDemandScrubPage .cbMessage {
+	margin-left: 11px;
+}
+
+.kleanOnDemandScrubPage .autoUpdateWrap .autoUpdate {
+    width: auto;
+    margin: 10px 5px 40px 10px;
+}
+
+.kleanOnDemandScrubPage .autoUpdateWrap label {
+	width: inherit;
+}
+
+.kleanOnDemandScrubPage .scrubHidden {
+	display: none;
+}
+/*##### KLEANONDEMANDSCRUB CSS END #####*/
+
+
+/*##### UPDATEOPPORTUNITYDATAPAGE CSS START #####*/
+.updateOpportunityDataPage #progressBar {
+	margin-bottom: 20px;
+}
+
+.updateOpportunityDataPage .underline {
+	text-decoration: underline;
+}
+/*##### UPDATEOPPORTUNITYDATAPAGE CSS END #####*/
+
+/*##### OPPORTUNITYACTIVITYREPORT CSS START #####*/
+.opportunityActivityReportPage tr.rowChange {
+    border-top: 5px solid #948d8d !important;
+}
+
+.opportunityActivityReportPage .tabularWrap {
+    width: 100%;
+}
+
+.opportunityActivityReportPage .tabularWrap h2 {
+    display: inline-block;
+}
+
+.opportunityActivityReportPage .tabularWrap form {
+	text-align: right;
+    float: right;
+    padding-top: 25px;
+    width: 10%;
+}
+
+.opportunityActivityReportPage .tabularWrap form select {
+	width: 100%;
+	padding: 5px;
+}
+
+.opportunityActivityReportPage table.w3-card-4 {
+	margin-bottom: 30px !important;
+}
+/*##### OPPORTUNITYACTIVITYREPORT CSS END #####*/
+
+/*##### ADMINSETTINGS CSS START #####*/
+.adminSettingsPage .accountAccess {
+	width: 15%;
+	padding: 5px;
+}
+
+.adminSettingsPage .sectionBlock01 label {
+	margin-top: 20px;
+	display: block;
+}
+
+.adminSettingsPage .sectionBlock03,
+.adminSettingsPage .restHookListBlock {
+	margin: 20px 0;
+}
+
+/*##### ADMINSETTINGS CSS END #####*/
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@media (min-width:601px) {
+	.ept-dash-container {
+		width:33.33333%;
+		float: left;
+		padding: 8px;
+	}
+	.ept-dash-icon {
+		font-size:36px!important
+	}
+}
+@media (min-width:801px) {
+	.ept-dash-container {
+		width:19.99999%
+	}
+	.ept-dash-icon {
+		font-size:36px!important
+	}
+}
+
+@media (max-width:992px) {
+	.ept-animate-left {
+		position:relative;
+		animation:animateleft 0.4s
+	}
+}
+
+@keyframes animateleft {
+	from {
+		left:-300px;
+		opacity:0
+	} 
+	to {
+		left:0;
+		opacity:1
+	}
+}
+
+@media (min-width:993px) {
+	.ept-dash-container {
+		width:33.33333%
+	}
+	.ept-dash-icon {
+		font-size:36px!important
+	}
+}
+
+@media (min-width:1280px) {
+	.ept-dash-container {
+		width:19.999%
+	}
+	.ept-dash-icon {
+		font-size:48px!important
+	}
+}
