@@ -12,7 +12,8 @@ function callIncludeEptFiles()
     include './eptPages/opportunityActivityReport.php'; 
     include './eptPages/updateOpportunityData.php'; 
     include './eptPages/kleanApiConfig.php';
-    include './eptPages/kleanOnDemandScrub.php'; 
+    include './eptPages/kleanOnDemandScrub.php';
+    include './eptPages/emailEngagementReport.php';
     include './eptPages/reset.php'; 
     include './eptPages/AC.php';  
     include './eptPages/emailAdminSettings.php';

@@ -808,6 +808,9 @@
                                         case "kleanOnDemandScrub": 
                                             echo printKleanOnDemandScrub($appName, $sessionId, $userDetails, $op); 
                                             break;
+                                        case "emailEngagementReport":
+                                            echo printEmailEngagementReport($appName, $sessionId, $userDetails, $op); 
+                                            break;
                                         case "emailAdminSettings":  
                                             
                                             echo '<pre>';

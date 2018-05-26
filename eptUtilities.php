@@ -559,8 +559,8 @@ function navigationMenu()
                     echo $showMenu;
                 }
                 ?>
-                <li   class="emailEngagementReport">
-                    <a href="ept.php"><i class="fa fa-envelope-o fa-fw"></i> Email Engagement Report</a>
+                <li class="emailEngagementReport">
+                    <a href="?op=emailEngagementReport"><i class="fa fa-envelope-o fa-fw"></i> Email Engagement Report</a>
                 </li>
                 <li   class="emailOpenReport">
                     <a href="?op=emailOpenReport"><i class="fa fa-fw fa-envelope"></i> Email Open Report</a>

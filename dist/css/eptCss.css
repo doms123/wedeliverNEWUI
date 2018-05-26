@@ -340,8 +340,26 @@ strong {
 .adminSettingsPage .restHookListBlock {
 	margin: 20px 0;
 }
-
 /*##### ADMINSETTINGS CSS END #####*/
+
+/*##### EMAILENGAGEMENTREPORT CSS START #####*/
+.emailEngagementReportPage .dismissText {
+	text-decoration: underline;
+}
+
+.emailEngagementReportPage #progress {
+	display: none;
+}
+/*##### EMAILENGAGEMENTREPORT CSS END #####*/
+
+/*##### EMAILOPENREPORT CSS START #####*/
+.emailOpenReportPage .tabularTable span {
+	font-size: 10px;
+}
+
+.emailOpenReportPage {
+	padding-bottom: 60px;
+}
 
 /* Safari */
 @-webkit-keyframes spin {
